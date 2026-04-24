@@ -1,5 +1,8 @@
-// ================================
-// SESSIONS PAGE (Dashboard)
-// Manage time slots for activities.
-// Admin/Manager can create, edit, and delete sessions.
-// ================================
+export default function SessionsPage() {
+	return (
+		<main className="p-6">
+			<h1 className="page-title">Sessions</h1>
+			<p className="page-subtitle">Configure surf sessions and time slots.</p>
+		</main>
+	);
+}
